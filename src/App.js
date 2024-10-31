@@ -1,24 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import UProfile from './UProfile';
+import GetTodaysDate from './GetTodaysDate';
+import UImages from './UImages';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <UProfile Name="Farrukh" Details="Software Developer" Designation="senior"></UProfile>
+    <UProfile Name="Um E Hani" Details="Project Manager" Designation="senior"></UProfile>
+    <UProfile Name="Irfan" Details="Business" Designation="junior"></UProfile>
+    <GetTodaysDate></GetTodaysDate>
+    <UImages></UImages>
+    </>
   );
 }
 

@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.senior{
+  color: red;
+}
+
+.junior{
+  color: green;
+}
+
+.logo{
+
+  border-style: dotted;
+  width: 250px;
+}
+
